@@ -1,0 +1,71 @@
+package proyectoTiendaMuebles;
+
+public class Articulo {
+	private String nombre;
+	private String descripcion;
+	private Integer codigo;
+	private Integer stocMin;
+	private Integer stock;
+	private Double pvp;
+	
+	
+	
+
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public String getDescripcion() {
+		return descripcion;
+	}
+	public void setDescripcion(String descripcion) {
+		this.descripcion = descripcion;
+	}
+	public Integer getAncho() {
+		return ancho;
+	}
+	public void setAncho(Integer ancho) {
+		this.ancho = ancho;
+	}
+	public Integer getAlto() {
+		return alto;
+	}
+	public void setAlto(Integer alto) {
+		this.alto = alto;
+	}
+	public Integer getProfundidad() {
+		return profundidad;
+	}
+	public void setProfundidad(Integer profundidad) {
+		this.profundidad = profundidad;
+	}
+	public Integer getStockmax() {
+		return stockmax;
+	}
+	public void setStockmax(Integer stockmax) {
+		this.stockmax = stockmax;
+	}
+	public Double getPvp() {
+		return pvp;
+	}
+	public void setPvp(Double pvp) {
+		this.pvp = pvp;
+	}
+	public Integer getCodigo() {
+		return codigo;
+	}
+	
+	public String visualizar() {
+		return "Articulo [nombre=" + nombre + ", descripcion=" + descripcion + ", codigo=" + codigo + ", ancho=" + ancho
+				+ ", alto=" + alto + ", profundidad=" + profundidad + ", stockmax=" + stockmax + ", pvp=" + pvp + "]";
+	}//visualizar
+	
+	
+	
+	
+	
+	
+	
+}//claass

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item value="false" key="updateQualifiedNames"/>
+		<item value="*" key="patterns"/>
+		<item value="false" key="updateSimilarElements"/>
+		<item value="1" key="updateSimilarElementsMatchStrategy"/>
+		<item value="false" key="updateTextualMatches"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
+		<item value="2" key="layout"/>
+		<item value="true" key="group_libraries"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;packageExplorer group_libraries=&quot;1&quot; layout=&quot;2&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;Aggregate for window 1508260215397&quot;&gt;&#x0D;&#x0A;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;&gt;&#x0D;&#x0A;&lt;xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsConnections&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.mylyn.java.ui.MembersFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.m2e.MavenModuleFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.BinaryProjectFilter1&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.ExternalPluginLibrariesFilter1&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsTempFiles&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;/xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;/customFilters&gt;&#x0D;&#x0A;&lt;/packageExplorer&gt;" key="memento"/>
+		<item value="1" key="rootMode"/>
+		<item value="false" key="linkWithEditor"/>
+	</section>
+	<section name="NewClassWizardPage">
+		<item value="false" key="create_constructor"/>
+		<item value="true" key="create_unimplemented"/>
+	</section>
+	<section name="OptionalMessageDialog.hide.">
+		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
+	</section>
+	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
+		<item value="678" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="889" key="DIALOG_HEIGHT"/>
+		<item value="630" key="DIALOG_X_ORIGIN"/>
+		<item value="9" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.text.QuickOutline">
+		<item value="true" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_USE_PERSISTED_SIZE"/>
+		<item value="450" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_WIDTH"/>
+		<item value="400" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_HEIGHT"/>
+		<item value="false" key="GoIntoTopLevelTypeAction.isChecked"/>
+		<item value="false" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_USE_PERSISTED_LOCATION"/>
+	</section>
+	<section name="RefactoringWizard.preview">
+		<item value="600" key="width"/>
+		<item value="400" key="height"/>
+	</section>
+	<section name="javadoc">
+		<item value="public" key="access"/>
+		<item value="false" key="noindex"/>
+		<item value="C:\Users\javip\workspace\ejercicioCesar\javadoc.xml" key="antpath"/>
+		<item value="false" key="nodeprecatedlist"/>
+		<item value="true" key="use"/>
+		<item value="true" key="author"/>
+		<item value="false" key="nodeprecated"/>
+		<item value="false" key="nonavbar"/>
+		<item value="" key="docletpath"/>
+		<item value="C:\Program Files\Java\jdk-9.0.1\bin\javadoc.exe" key="javadoc_command_history"/>
+		<item value="1.8" key="source"/>
+		<item value="true" key="version"/>
+		<item value="ejemplo" key="doctitle"/>
+		<item value="" key="docletname"/>
+		<item value="true" key="splitindex"/>
+		<item value="true" key="fromStandard"/>
+		<item value="false" key="notree"/>
+		<item value="C:\Users\javip\Desktop" key="destdir"/>
+		<item value="false" key="openinbrowser"/>
+		<section name="projects">
+			<section name="ejer5T4H1">
+				<item value="C:\Users\javip\workspace\ejer5T4H1\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\javip\workspace\ejer5T4H1\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ejercicio8T4H1">
+				<item value="C:\Users\javip\workspace\ejercicio8T4H1\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\javip\workspace\ejercicio8T4H1\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="H2ejer15Pseudo">
+				<item value="C:\Users\javip\workspace\H2ejer15Pseudo\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\javip\workspace\H2ejer15Pseudo\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ejercicioCesar">
+				<item value="C:\Users\javip\workspace\ejercicioCesar\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\javip\Desktop" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ejercicio1T4h1">
+				<item value="C:\Users\javip\workspace\ejercicio1T4h1\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\javip\workspace\ejercicio1T4h1\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="H2ejer10Pseudo">
+				<item value="C:\Users\javip\workspace\H2ejer10Pseudo\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\javip\workspace\H2ejer10Pseudo\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="tragabolas">
+				<item value="C:\Users\javip\workspace\tragabolas\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\javip\workspace\tragabolas\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="RemoteSystemsTempFiles">
+				<item value="C:\Users\javip\workspace\RemoteSystemsTempFiles\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\javip\workspace\RemoteSystemsTempFiles\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ejerciciosTema6Hoja2">
+				<item value="C:\Users\javip\workspace\ejerciciosTema6Hoja2\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\javip\workspace\ejerciciosTema6Hoja2\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ejercicio9T4H1">
+				<item value="C:\Users\javip\workspace\ejercicio9T4H1\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\javip\workspace\ejercicio9T4H1\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ejer34pseudo">
+				<item value="C:\Users\javip\workspace\ejer34pseudo\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\javip\workspace\ejer34pseudo\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="pruebasvarias">
+				<item value="C:\Users\javip\workspace\pruebasvarias\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\javip\workspace\pruebasvarias\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Ejer2T6">
+				<item value="C:\Users\javip\workspace\Ejer2T6\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\javip\workspace\Ejer2T6\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Fecha">
+				<item value="C:\Users\javip\workspace\Fecha\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\javip\workspace\Fecha\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="CuentaCorriente">
+				<item value="C:\Users\javip\workspace\CuentaCorriente\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\javip\workspace\CuentaCorriente\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="H2ejer11pseudo">
+				<item value="C:\Users\javip\workspace\H2ejer11pseudo\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\javip\workspace\H2ejer11pseudo\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ejer6.1">
+				<item value="C:\Users\javip\workspace\ejer6.1\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\javip\workspace\ejer6.1\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ejer3T4H1">
+				<item value="C:\Users\javip\workspace\ejer3T4H1\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\javip\workspace\ejer3T4H1\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ejer7T4H1">
+				<item value="C:\Users\javip\workspace\ejer7T4H1\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\javip\workspace\ejer7T4H1\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ejer33pseudo">
+				<item value="C:\Users\javip\workspace\ejer33pseudo\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\javip\workspace\ejer33pseudo\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ejer2T4H1">
+				<item value="C:\Users\javip\workspace\ejer2T4H1\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\javip\workspace\ejer2T4H1\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Baraja">
+				<item value="C:\Users\javip\workspace\Baraja\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\javip\workspace\Baraja\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ejer3T4H1solucion">
+				<item value="C:\Users\javip\workspace\ejer3T4H1solucion\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\javip\workspace\ejer3T4H1solucion\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ejer4T4H1">
+				<item value="C:\Users\javip\workspace\ejer4T4H1\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\javip\workspace\ejer4T4H1\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="H2ejer12Pseudo">
+				<item value="C:\Users\javip\workspace\H2ejer12Pseudo\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\javip\workspace\H2ejer12Pseudo\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Ejer1Tema6">
+				<item value="C:\Users\javip\workspace\Ejer1Tema6\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\javip\workspace\Ejer1Tema6\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ejer6T2Vectores">
+				<item value="C:\Users\javip\workspace\ejer6T2Vectores\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\javip\workspace\ejer6T2Vectores\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ejercicio3Mascomplicado">
+				<item value="C:\Users\javip\workspace\ejercicio3Mascomplicado\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\javip\workspace\ejercicio3Mascomplicado\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="cuentamonedas">
+				<item value="C:\Users\javip\workspace\cuentamonedas\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\javip\workspace\cuentamonedas\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+		</section>
+	</section>
+	<section name="SourceActionDialog.methods">
+		<item value="false" key="SynchronizedModifier"/>
+		<item value="false" key="Comments"/>
+		<item value="1" key="VisibilityModifier"/>
+		<item value="false" key="FinalModifier"/>
+	</section>
+	<section name="RenameInformationPopup">
+	</section>
+	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="JavadocWizardDialog">
+		<item value="818" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="698" key="DIALOG_HEIGHT"/>
+		<item value="560" key="DIALOG_X_ORIGIN"/>
+		<item value="59" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="completion_proposal_size">
+	</section>
+	<section name="AddGetterSetterDialog">
+		<item value="false" key="SortOrdering"/>
+		<item value="false" key="RemoveFinal"/>
+	</section>
+	<section name="JavaElementSearchActions">
+	</section>
+</section>

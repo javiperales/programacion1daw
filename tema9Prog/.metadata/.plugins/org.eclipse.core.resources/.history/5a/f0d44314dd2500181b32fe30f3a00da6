@@ -1,0 +1,56 @@
+import java.util.*;
+public class GestionAgencia {
+	public static void main(String[] args) {
+		/////////////////////principal///////////////////////////////////////
+		final Integer NUMCOCHE=20;
+		Coche[] coches = new Coche[NUMCOCHE];
+		Coche [] CocheLujo = new Lujo[5];
+		Coche[] CocheNormal = new Normal[15];
+		
+		
+		
+		
+		
+		
+	}//main
+	
+	public static void devolver(){
+		Libreria.mostrarEnPantalla("1-devolver coche de lujo");
+		Libreria.mostrarEnPantalla("2-devolver coche normal");
+	
+	}//devolver
+	
+	public static void crearCocheLujo(Coche CocheLujo[]){
+		Random alea = new Random();
+		boolean disponible=true;
+		Fecha fecha;
+		int dia, mes, año, codigo=10000;
+		for(int i=0; i<CocheLujo.length; i++){
+			codigo++;
+			dia=alea.nextInt(30);
+			mes=alea.nextInt(12)+1;
+			año=alea.nextInt(2018)-2000;
+			fecha = new Fecha(dia,mes,año);
+			
+			CocheLujo[i]= new Lujo(Libreria.matriculaAzar(),Libreria.marcaAzar(),Libreria.modeloAzar(),fecha, disponible,Libreria.enteroAzar(50, 60),codigo);			
+		}//for
+			
+	}//creaarCocheDeLujo
+	
+	public static Fecha pedirFecha(){
+		Fecha fecha;
+		Integer dia=0, mes=0 , año=0;
+		if(dia<31 && mes<12 && año<2018){
+			System.out.println("fecha incorrecta");
+		}else{
+			dia=Libreria.pedirEntero("dia del mes");
+			mes=Libreria.pedirEntero("mes actual");
+			año=Libreria.pedirEntero("año actual");
+			
+			
+		}
+		fecha = new Fecha(dia,mes,año);
+		return fecha;
+	}
+
+}//class

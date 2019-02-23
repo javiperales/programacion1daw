@@ -1,0 +1,25 @@
+package proyectoTiendaMuebles;
+
+public class Articulo {
+	private String descripcion;
+	private static Integer siguiente=0;
+	private Integer codigo;
+	private Integer stocMin;
+	private Integer stock;
+	private Double pvp;
+	private Integer acumuladoVentas;
+	public Articulo(String descripcion, Integer stocMin, Integer stock, Double pvp) {
+		siguiente++;
+		codigo=siguiente;
+		this.descripcion = descripcion;
+		this.stocMin = stocMin;
+		this.stock = stock;
+		this.pvp = pvp;
+		
+	}
+	
+	
+	
+
+	
+}//claass

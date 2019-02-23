@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private static String cifrarContraseña(String contraseña, String cifrada)&apos; from &apos;Principal.main()&apos; to &apos;Principal&apos;&#x0D;&#x0A;- Original project: &apos;UsuariosRepaso&apos;&#x0D;&#x0A;- Method name: &apos;cifrarContraseña&apos;&#x0D;&#x0A;- Destination type: &apos;Principal&apos;&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;cifrarContraseña&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;{Principal.java" name="cifrarContraseña" replace="false" selection="524 156" stamp="1525991531091" version="1.0" visibility="2"/>
+</session>

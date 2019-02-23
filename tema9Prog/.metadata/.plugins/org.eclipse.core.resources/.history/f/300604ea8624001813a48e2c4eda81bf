@@ -1,0 +1,47 @@
+
+public class GestionMueble {
+
+	public static void main(String[] args) {
+		//////////////////principal////////////////////////////////////
+		
+		Mueble mueble[]= new Mueble[15];
+		Almacen alma[]= new Almacen[4];
+		int opc;
+		
+		
+		
+		do{
+			opc=Libreria.pedirEntero("dame una opcion");
+			switch(opc){
+			case 1:
+				break;
+				
+			case 2:
+				break;
+				
+			case 3:
+				break;
+			}
+			
+		}while(opc!=0);
+		System.out.println("fin del programa");
+	}//main
+	
+	public static void creaInfoAlmacen(Almacen alma[] , Mueble mueble[]){
+		int numMuebles=0;
+		for(int i=0; i<alma.length; i++){
+			numMuebles=Libreria.enteroAzar(0, mueble.length);
+			for(int k=0; k<numMuebles;k++){
+				alma[i]= new Almacen(alma[i].ge)
+			}
+			
+		}//for
+		
+		
+		
+		
+	}//creaInfoAlmacen
+	
+	
+	
+}//class

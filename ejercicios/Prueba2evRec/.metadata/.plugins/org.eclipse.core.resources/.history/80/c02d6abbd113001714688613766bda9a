@@ -1,0 +1,22 @@
+import utilidades.Leer;
+import java.util.*;
+public class Principal {
+
+	public static void main(String[] args) {
+		Random azar=new Random();
+		int numEmpleHoras, emplePlantilla;
+		String nombre[]={"Juan", "Pepe", "Luis", "Lolo", "Javier", "Pablo", "Maria", "Eva", "Luis"};
+		String apellido[]={"Morquecho","Pequeño", "Ravioli", "Sartalamata", "Random", "Libertad", "Remo", "Lobo", "Frio"};
+		String DNI[]={"17763936R","40888480T","17763937W","40888737G","25012222M","26998555L","88999555M","66588999W","31336665X"};
+		System.out.println("¿Cuantos Empleados por horas quieres crear?");
+		numEmpleHoras=Leer.pedirEnteroValidar(" ");
+		Empleado empleHora[]= new PorHoras[numEmpleHoras];
+		for(int i=0; i<empleHora.length; i++){
+			empleHora[i]= new PorHoras(numEmpleado,DNI,nombre,apellido);
+		}
+
+
+
+	}
+
+}

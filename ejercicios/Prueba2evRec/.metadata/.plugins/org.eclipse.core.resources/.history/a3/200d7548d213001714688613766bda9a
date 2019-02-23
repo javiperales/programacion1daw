@@ -1,0 +1,17 @@
+
+public abstract class Empleado {
+	private static int contaEmpleado=0;
+	private int numEmpleado;
+	private String DNI;
+	private String nombre;
+	private String apellidos;
+	public Empleado(int numEmpleado, String DNI, String nombre, String apellidos){
+		this.numEmpleado=numEmpleado;
+		this.DNI=DNI;
+		this.nombre=nombre;
+		this.apellidos=apellidos;
+	}
+	public abstract imprimir();
+	
+
+}

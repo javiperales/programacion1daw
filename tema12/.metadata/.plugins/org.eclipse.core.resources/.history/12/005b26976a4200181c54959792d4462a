@@ -1,0 +1,156 @@
+package ejercicio4_Usuarios;
+
+import java.util.Scanner;
+import java.util.TreeMap;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		/////////////////////PRINCIPAL///////////////////////////////////////
+		String nombre="", contraseña="",claveNueva="";
+		TreeMap<String,String> registro= new TreeMap<String,String>();
+		Integer op=0;
+		Scanner teclado = new Scanner(System.in);
+
+		do{
+
+			menu(op);
+			op=Libreria.t_pedirEnteroValidar(0,"opcion");
+			switch(op){
+			case 1:
+
+				crearUsuario(nombre,contraseña,registro);
+				
+				
+				break;
+
+			case 2:
+				BorrarUsuario(nombre,contraseña,registro);
+
+				break;
+
+			case 3:
+				modificarClave(nombre,contraseña,registro,claveNueva);
+				break;
+
+			case 4:
+				Libreria.recorreTreeMapStrings(registro);
+				System.out.print(registro);
+				System.out.println(" ");
+				break;
+			}
+
+		}while(op!=0);
+
+
+
+	}//main
+
+	public static void crearUsuario(String nombre, String contraseña,TreeMap<String,String> registro ){
+		nombre=Libreria.t_pedirCadena(0, "nombre del usuario");
+		contraseña=Libreria.t_pedirCadena(0, "contraseña del usuario");
+		if(registro.containsKey(nombre)){
+			Libreria.t_pedirCadena(0, "usuario ya existente");
+			
+
+		}else{
+			if(!claveValidar(contraseña)){
+				System.out.println("error");
+			}else{
+			contraseña=codificar(contraseña);
+			registro.put(nombre, contraseña);
+			}
+
+		}
+	}//crearUsuario
+
+	public static void BorrarUsuario(String nombre, String contraseña,TreeMap<String,String> registro){
+		nombre=Libreria.t_pedirCadena(0, "usuario que deseas eliminar");
+		contraseña=Libreria.t_pedirCadena(0, "contraseña del usuario");
+		contraseña=codificar(contraseña);
+		if(registro.containsKey(nombre) && registro.containsValue(contraseña)){
+			
+			Leer.mostrarEnPantalla("usuario borrado");
+			registro.remove(nombre);
+		}else{
+			System.out.println("usuario  no encontrado");
+		}
+	}
+
+	public  static Boolean  claveValidar(String contraseña){
+		char caracter;
+
+		for(int i=0; i<contraseña.length();i++){
+			if(!((contraseña.charAt(i)>='a' && contraseña.charAt(i)<='z' )|| (contraseña.charAt(i)>='A' && contraseña.charAt(i)<='Z')
+					|| (contraseña.charAt(i)>='0'  && contraseña.charAt(i)<='9'))){
+				System.out.println("contraseña erronea");
+				return false;
+			
+			}
+		}
+		return true;
+	}//claveValidar
+
+	public static String codificar(String contraseña){
+		char caracter;
+		String claveAux="";
+		int num=0;
+		num=Leer.pedirEntero("grado de codificacion");
+		for(int i=0; i<contraseña.length();i++){
+			
+			caracter=contraseña.charAt(i);
+			caracter=(char)(caracter+num);
+			claveAux+=""+caracter;
+		}//for
+		return claveAux;
+	}
+	
+	public static String descodificar(String contraseña){
+		char caracter;
+		String claveAux="";
+		int num=0;
+		num=Leer.pedirEntero("grado de codificacion");
+		for(int i=0; i<contraseña.length();i++){
+			
+			caracter=contraseña.charAt(i);
+			caracter=(char)(caracter-num);
+			claveAux+=""+caracter;
+		}//for
+		return claveAux;
+	}
+
+	public static Boolean existeUsuario(String nombre,String contraseña, TreeMap<String,String> registro){
+		boolean existe=false;
+		if(registro.containsKey(nombre)){
+			existe = true;
+		}
+		return existe;
+	}//existeUsuario
+
+	public static Boolean modificarClave(String nombre,String contraseña,TreeMap<String,String> registro,String claveNueva){
+		Boolean modificar=false;	
+		nombre=Libreria.t_pedirCadena(0, "nombre de usuario");
+		claveNueva=Libreria.t_pedirCadena(0, "nueva contraseña para el usuario");
+		if(existeUsuario(nombre,contraseña,registro)==true){
+			if(registro.get(nombre).contains(codificar(contraseña))){
+				registro.put(nombre, codificar(claveNueva));
+
+			}//if
+		}//ifpadre
+		return modificar;
+	}//modificar clave
+	
+	
+
+	public static void menu(Integer op){
+		System.out.println("1-registrarse");
+		System.out.println("2-borrar usuarios");
+		System.out.println("3-modificar claves de un usuario");
+		System.out.println("4-visualizar usuarios");
+		System.out.println("0-Salir");
+
+
+
+
+	}//menu
+}//class

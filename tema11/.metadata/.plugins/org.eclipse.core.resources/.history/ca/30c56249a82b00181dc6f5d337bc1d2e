@@ -1,0 +1,51 @@
+package proyectoTiendaMuebles;
+
+import java.util.Arrays;
+
+public class Tienda {
+	private String nombre;
+	private String direccion;
+	private Integer stock;
+	private Articulo articulo[];
+	public Tienda(String nombre, String direccion, Integer stock, Articulo[] articulo) {
+		super();
+		this.nombre = nombre;
+		this.direccion = direccion;
+		this.stock = stock;
+		this.articulo = articulo;
+	}
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public String getDireccion() {
+		return direccion;
+	}
+	public void setDireccion(String direccion) {
+		this.direccion = direccion;
+	}
+	public Integer getStock() {
+		return stock;
+	}
+	public void setStock(Integer stock) {
+		this.stock = stock;
+	}
+	public Articulo[] getArticulo() {
+		return articulo;
+	}
+	public void setArticulo(Articulo[] articulo) {
+		this.articulo = articulo;
+	}
+
+	public String visualizar() {
+		return "tienda [nombre=" + nombre + ", direccion=" + direccion + ", stock=" + stock + ", articulo="
+				+ Arrays.toString(articulo) + "]";
+	}
+	
+	
+	
+	
+
+}//class

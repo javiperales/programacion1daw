@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;numero&apos; in &apos;EjerTresSetString.main(...)&apos; to &apos;texto&apos;&#x0D;&#x0A;- Original project: &apos;EjerTresSetString&apos;&#x0D;&#x0A;- Original element: &apos;EjerTresSetString.main(String[]).numero&apos;&#x0D;&#x0A;- Renamed element: &apos;numero&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;numero&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{EjerTresSetString.java[EjerTresSetString~main~\[QString;@numero!954!976!961!966!QString;!0!false" name="texto" references="true" stamp="1521814871727" version="1.0"/>
+</session>

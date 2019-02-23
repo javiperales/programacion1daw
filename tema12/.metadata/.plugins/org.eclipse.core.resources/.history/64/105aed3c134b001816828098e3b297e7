@@ -1,0 +1,62 @@
+import java.util.ArrayList;
+import java.util.TreeSet;
+
+public class comedor {
+
+	public static void main(String[] args) {
+		/////////////principal//////
+
+
+		TreeSet<Ingrediente> setIngredientes = new TreeSet<Ingrediente>();
+		ArrayList<Plato> listaPlatos = new ArrayList<Plato>();
+		Mesa[] mesas= new Mesa[10];
+		Plato[] carta = new Plato[6];
+		
+		//creaListaPlatos(listaPlatos);
+		
+		
+	}//main
+	
+	public static TreeSet<Ingrediente> creaIngredientes(TreeSet<Ingrediente> setIngredientes){
+		 String ingredienteAzar=Libreria.a_ingredientesAzar();
+		 Integer precioAzar=Libreria.a_enteroAzar(0, 5)+1;
+		Ingrediente ingredientes;
+		ingredientes = new Ingrediente(ingredienteAzar,precioAzar);
+		
+		for(int i=0; i<Libreria.a_ingredientesAzar().length();i++){
+		setIngredientes.add(ingredientes);
+		}
+		return setIngredientes;
+	}//creaIngredientes
+	
+	public static void creaListaPlatos(ArrayList<Plato> listaPlatos){
+		Plato miPlato;
+		String nombrePlato;
+		
+		for(int i=0; i<15; i++){
+			 Integer precioAzar=Libreria.a_enteroAzar(1, 5);
+				nombrePlato=Libreria.a_ingredientesAzar()+" con "+Libreria.a_ingredientesAzar();
+			miPlato = new Plato(nombrePlato,precioAzar+1);
+			listaPlatos.add(miPlato);		
+			
+		}
+		
+	}
+	
+	public static Plato[] creaCarta(ArrayList<Plato> listaPlatos){
+		Plato[] carta=null;
+		for(int i=0; i<6;i++){
+			carta[i]=listaPlatos.get(Libreria.a_enteroAzar(0, 15));
+		}//for
+							
+		return carta;
+	}//creaCarta
+	
+	public static Mesa[] creaMesas(Plato[] carta ){
+		Mesa[] mesas= new Mesa[10];
+			
+		
+		return mesas;
+	}
+
+}//class

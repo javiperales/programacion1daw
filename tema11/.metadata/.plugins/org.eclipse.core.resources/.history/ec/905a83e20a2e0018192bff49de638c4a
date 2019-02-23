@@ -1,0 +1,24 @@
+package proyectoTiendaMuebles;
+
+public class GestionTienda {
+
+	public static void main(String[] args) {
+		///////////PRINCIPAL/////////////////////////////////////////////////////////////
+		Tienda tienda;
+		Articulo articulo[]= new Articulo[5];
+		Integer ventaAcumulada=0;
+		
+			
+	}//main
+	 
+
+	public static Integer menu(){
+		Integer opcion;
+		
+		opcion=Libreria.t_pedirEnteroValidar(0, "elija opcion");
+		
+		return opcion;
+	}
+	
+	
+}//class

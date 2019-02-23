@@ -1,0 +1,10 @@
+
+public abstract class Empleado {
+	int numEmpleado;
+	String DNI;
+	String nombre;
+	String apellidos;
+	public Empleado(){}
+	public void salario(){}
+
+}

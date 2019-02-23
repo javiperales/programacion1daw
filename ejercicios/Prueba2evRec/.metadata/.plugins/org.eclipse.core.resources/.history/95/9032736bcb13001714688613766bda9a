@@ -1,0 +1,8 @@
+
+public class Plantilla extends Empleado {
+	public Plantilla(int numEmpleado, String DNI, String nombre, String apellidos){
+		super(numEmpleado,DNI,nombre,apellidos);				
+			
+	}
+
+}

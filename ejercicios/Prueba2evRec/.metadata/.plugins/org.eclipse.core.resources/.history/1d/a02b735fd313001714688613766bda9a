@@ -1,0 +1,16 @@
+
+public class PorHoras extends Empleado {
+	double precioHora;
+	int horas[];
+	public PorHoras(int numEmpleado, String DNI, String nombre, String apellidos){
+		super(numEmpleado,DNI,nombre,apellidos);				
+
+	}
+	public void imprimir(){
+		System.out.println(super.getNumEmpleado());
+		System.out.println(super.getNombre());
+		System.out.println(super.getApellidos());
+		System.out.println(super.getDNI());;
+	}
+
+}

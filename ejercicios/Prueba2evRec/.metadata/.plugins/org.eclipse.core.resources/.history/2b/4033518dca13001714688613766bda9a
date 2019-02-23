@@ -1,0 +1,9 @@
+
+public class PorHoras extends Empleado {
+	double precioHora;
+	int horas;
+	public Empleado(){
+		
+		
+	}
+}

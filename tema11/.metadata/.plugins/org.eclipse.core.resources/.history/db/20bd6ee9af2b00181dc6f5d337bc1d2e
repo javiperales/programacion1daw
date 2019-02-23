@@ -1,0 +1,18 @@
+package proyectoTiendaMuebles;
+
+public class Articulo {
+	private String nombre;
+	private String descripcion;
+	private Integer codigo;
+	private Integer stocMin;
+	private Integer stock;
+	private Double pvp;
+	
+	
+	
+
+	
+	
+	
+	
+}//claass

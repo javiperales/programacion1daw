@@ -1,0 +1,10 @@
+package proyectoTiendaMuebles;
+
+public class GestionTienda {
+
+	public static void main(String[] args) {
+		///////////PRINCIPAL/////////////////////////////////////////////////////////////
+
+	}//main
+
+}//class

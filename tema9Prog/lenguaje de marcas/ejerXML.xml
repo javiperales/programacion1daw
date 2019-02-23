@@ -1,0 +1,5 @@
+﻿<!ELEMENT root (element+)>
+  
+
+
+<!ELEMENT element (#PCDATA)>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;SumaInpar&apos; in &apos;ejercicio12.main(...)&apos; to &apos;SumaImpar&apos;&#x0D;&#x0A;- Original project: &apos;H2ejer11pseudo&apos;&#x0D;&#x0A;- Original element: &apos;ejercicio12.main(String[]).SumaInpar&apos;&#x0D;&#x0A;- Renamed element: &apos;SumaInpar&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;SumaInpar&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{ejercicio12.java[ejercicio12~main~\[QString;@SumaInpar!141!179!156!164!I!0!false" name="SumaImpar" references="true" stamp="1508775134669" version="1.0"/>
+</session>

@@ -1,0 +1,26 @@
+package proyectoTiendaMuebles;
+
+public class GestionTienda {
+
+	public static void main(String[] args) {
+		///////////PRINCIPAL/////////////////////////////////////////////////////////////
+		Tienda tienda;
+		Articulo articulo[];
+		
+			
+	}//main
+	 
+	public static void creaArticulos(Articulo articulo[]){
+		Integer num;
+		num=Libreria.t_pedirEnteroValidar(0, "cuantos articulos quieres crear");
+		/*String nombre, String descripcion, Integer ancho, Integer alto, Integer profundidad,
+			Integer stockmax, Integer pvp*/
+		for(int i=0; i<num; i++){
+			articulo[i]=new Articulo(Libreria);
+		}
+		
+		
+	}
+	
+	
+}//class

@@ -1,0 +1,16 @@
+package proyectoTiendaMuebles;
+
+public class GestionTienda {
+
+	public static void main(String[] args) {
+		///////////PRINCIPAL/////////////////////////////////////////////////////////////
+		Tienda tienda;
+		Articulo articulo[];
+		
+			
+	}//main
+	 
+
+	
+	
+}//class
